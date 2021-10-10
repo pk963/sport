@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$Oswald: 'Oswald', sans-serif;
+$Heebo: 'Heebo', sans-serif;
+
+$white: #fff;
+$color-lg: #b8ea3f;
+$color-lg: #1db8b6;
+
+$color-dg: #001213;
+$color-l: #96a3a5;
+:root {
+    --font-1: 'Oswald', sans-serif;
+    --font-2: 'Heebo', sans-serif
+}
+body {
+    font-family: $Oswald;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.text {
+    font-family: var(--font-2);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.bg_dg {
+    background: $color-dg;
+    color: #fff;
+}

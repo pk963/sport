@@ -1,0 +1,243 @@
+
+@media screen and (max-width: 767px) {
+    .mob_none {
+        display: none;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .btm_1 {
+        padding: 8px 20px;
+    }
+    .sec_title {
+        margin-bottom: 20px;
+        .title {
+            font-size: 22px;
+        }
+        .sub_title {
+            font-size: 16px;
+        }
+        .text {
+            margin-bottom: 15px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .navigation_section {
+        .navbar-brand img {
+            width: 105px;
+        }
+    }
+    .slider_section {
+        .carousel_caption {
+            .heading {
+                font-size: 37px;
+                line-height: 46px;
+                margin-bottom: 33px;
+            }
+            .text {
+                margin-bottom: 30px;
+                font-size: 16px;
+            }
+        }
+    }
+    .about_section {
+        padding: 1rem 0rem;
+        .img_box {
+            .img_inner_box {
+                border-width: 14px 14px 14px 0px;
+            }
+        }
+        .about_block {
+            margin: 115px 0px 0px;
+            padding: 0px;
+            max-width: unset;
+            padding: 30px 20px;
+        }
+        .count_wrap {
+            .count_item {
+                .count_no {
+                    font-size: 28px;
+                }
+                .text {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .gallery_section {
+        padding: 2rem 0rem;
+        .gall_item {
+            .gall_det_box {
+                padding: 7%;
+            }
+        }
+    }
+    .course_section {
+        padding: 1rem 0rem 2rem;
+        .right {
+            text-align: unset;
+        }
+        .icon_box {
+            font-size: 30px;
+        }
+    }
+    .course_card {
+        & + .course_card {
+            margin-top: 20px;
+        }
+        .title {
+            font-size: 18px;
+        }
+    }
+    .course_wrap {
+        padding: 0rem .5rem;
+    }
+    .testimonial_section {
+        padding: 3rem 0rem 1rem;
+        .testimonial_wrap {
+            .title {
+                font-size: 22px;
+                margin-bottom: 25px;
+            }
+            .testimonial {
+                .testi_item {
+                    .message {
+                        font-size: 14px;
+                    }
+                    .box_wrap {
+                        .name {
+                            font-size: 18px;
+                            margin-bottom: 2px;
+                        }
+                        .deg {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pricing_section {
+        padding: 3rem 0rem 1rem;
+    }
+    .price_card {
+        margin: 10px auto;
+        .card_title {
+            font-size: 24px;
+        }
+        .price {
+            font-size: 30px;
+            span {
+                font-size: 18px;
+                display: inline-block;
+            }
+        }
+        hr {
+            margin: 23px 0px;
+        }
+        ul li + li {
+            margin-top: 10px;
+        }
+        .btm_wrap {
+            margin-top: 28px;
+        }
+    }
+    .join_section {
+        padding: 1rem 0rem 3rem;
+        .text_box {
+            .title {
+                font-size: 24px;
+            }
+            .text {
+                margin-bottom: 0px;
+            }
+        }
+        .btm_wrap {
+            text-align: center;
+        }
+    }
+    .join_section_2 {
+        padding: 2.5rem .9rem;
+        .join_wrap {
+            text-align: center;
+        }
+    }
+    .article_section {
+        padding: 3rem 0rem 2rem;
+    }
+    .acrticle_card {
+        padding: 0rem .5rem;
+    }
+    .latter_wrap {
+        padding: 24px;
+        text-align: center;
+    }
+    .search_box {
+        .form-control {
+            font-size: 14px;
+            padding: 4px 16px;
+            height: 38px;
+        }
+        .btm_sub {
+            font-size: 13px;
+            padding: 4px 16px;
+        }
+    }
+    .newsletter_section {
+        padding: 1rem 0rem 0rem;
+    }
+    .footer-section {
+        .foot {
+            padding: 0rem .5rem;
+            .title {
+                margin-bottom: 16px;
+                margin-top: 20px;
+            }
+            ul {
+                li {
+                    font-size: 15px;
+                    & + li {
+                        margin-top: 12px;
+                    }
+                }
+            }
+            .ul_link li::before {
+                margin-right: 5px;
+            }
+        }
+        .b_foot {
+            margin-top: 30px;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    // about page
+    .coach_section {
+        padding: 3rem 0rem 2rem;
+    }
+    .profile_card {
+        padding: .5rem 0rem;
+    }
+    // contact page
+    .contact_section {
+        padding: 3rem 0rem 2rem;
+        .contact_form {
+            .form {
+                padding: 35px 20px;
+            }
+        }
+        .address {
+            padding: .5rem;
+        }
+        .map {
+            height: 190px;
+        }
+    }
+    .form {
+        .form-control {
+            padding: 8px 12px;
+            font-size: 15px;
+        }
+    }
+}

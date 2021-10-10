@@ -1,0 +1,96 @@
+
+.crumb_section {
+    padding-top: 4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .crumb_wrap {
+        height: 22rem;
+        display: grid;
+        place-content: center;
+        text-align: center;
+        color: $white;
+        position: relative;
+        z-index: 1;
+        .title {
+            font-size: 32px;
+            text-transform: uppercase;
+            font-style: oblique;
+            margin-bottom: 20px;
+        }
+        .text {
+            font-weight: 200;
+        }
+    }
+}
+// contact secton 
+.contact_section {
+    padding: 5rem 0rem 0px;
+    .contact_block {
+        .map {
+            width: 100%;
+            height: 265px;
+            margin-bottom: 20px;
+        }
+        .address {
+            .location {
+                font-size: 28px;
+            }
+            ul {
+                margin-bottom: 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 7px;
+                li {
+                    display: flex;
+                    gap: 10px;
+                    i {
+                        width: 30px;
+                        height: 30px;
+                        display: grid;
+                        place-content: center;
+                        color: $color-lg;
+                    }
+                }
+            }
+        }
+    }
+    .contact_form {
+        .form {
+            padding: 55px;
+            box-shadow: 0px 5px 20px 0px #0000001a;
+            // transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        }
+    }
+}
+
+// galler_section
+.gallery_section {
+    padding: 5rem 0rem;
+}
+.gallery_item {
+    position: relative;
+    @include box_shadow();
+    transition: .3s all ease;
+    &:hover {
+        box-shadow: 0px 3px 6px #191d0e;
+        .overlay_2 {
+            opacity: 1;
+        }
+    }
+}
+
+// about page
+.coach_section {
+    padding: 4rem 0rem 3rem;
+}
+// service page
+.service__section {
+    padding: 4rem 0rem 3rem;
+}
+
+// gallery__page
+.gallery__section {
+    padding: 4rem 0rem 3rem;
+}
